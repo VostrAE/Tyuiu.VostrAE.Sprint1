@@ -6,7 +6,7 @@ namespace Tyuiu.VostrAE.Sprint1.Task4.V20.Lib
         public double Calculate(double x, double y)
         {
             var res = (1 + x)/ Math.Abs((x-Math.Pow(2+y,0.5)));
-            return res;
+            return Math.Round(res, 3);
             
         }
     }
