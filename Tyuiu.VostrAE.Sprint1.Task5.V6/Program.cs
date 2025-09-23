@@ -14,8 +14,8 @@ class Progaram
         Console.WriteLine("* В неделе этот день занимает место под номером:                          *");
         Console.WriteLine("***************************************************************************");
 
-        int res = Convert.ToInt32(ds.Calculate(k));
-        Console.WriteLine(res);
+        int n = Convert.ToInt32(ds.Calculate(k));
+        Console.WriteLine(n);
         
 
         Console.ReadKey();
