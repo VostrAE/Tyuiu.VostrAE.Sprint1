@@ -6,8 +6,6 @@ namespace Tyuiu.VostrAE.Sprint1.Task6.V10.Lib
     {
         public string DeleteMiddleLetter(string value)
         {
-
-            value = value.Replace(" ", "");
             value = value.Replace(",", "");
             value = value.Replace("!", "");
             value = value.Replace("?", "");
@@ -15,7 +13,6 @@ namespace Tyuiu.VostrAE.Sprint1.Task6.V10.Lib
             value = value.Replace("-", "");
 
             string[] words = value.Split(' ');
-
             for (int i = 0; i < words.Length; i++)
             {
                 string word = words[i];
